@@ -1,0 +1,352 @@
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 15vh;
+    background-color: transparent;
+    color: white;
+}
+
+.middle-container{
+    min-height: 15vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button{
+    height: 100%;
+    width: 20vw;
+    background-color: transparent;
+    background-color: rgba(0,0,0, .8); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: solid;
+    border-color: white;
+    border-style: double;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: transparent;
+}
+
+.calendar-container{
+    min-height: 90vh;
+    width: 95%;
+    background-color: rgba(0,0,0,0.8); 
+    backdrop-filter: blur(6px);
+    border-radius: 15px;
+}
+.a{
+    display: flex;
+    justify-content: center;
+}
+.calendar-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.day-names{
+    min-height: 5vh;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.days-of-week{
+    color: white;
+    width: 15vw;
+}
+.row-container{
+    min-height: 75vh;
+    background-color: transparent;
+}
+
+.row1{
+    display: flex;
+}
+
+.row2{
+    display: flex;
+}
+.row3{
+    display: flex;
+}
+
+.row4{
+    display: flex;
+}
+.row5{
+    display: flex;
+}
+
+.day-container{
+    min-height: 10vh;
+    width: 14vw;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    background-color:transparent ;
+    border-radius: 20px;
+    border: solid darkgray;
+}
+.day-container:hover{
+    border-color: white;
+}
+
+
+.day-container-void{
+    min-height: 10vh;
+    width: 14vw;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    background-color:transparent ;
+    border-radius: 20px;
+    border: solid darkgray;
+}
+.day-container-void:hover{
+    border-color: white;
+}
+
+.day-container-profit{
+    min-height: 10vh;
+    width: 14vw;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    background-color:transparent ;
+    border-radius: 20px;
+    border: solid green;
+}
+.day-container-profit:hover{
+    border-color: white;
+}
+
+.day-container-loss{
+    min-height: 10vh;
+    width: 14vw;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    background-color:transparent ;
+    border-radius: 20px;
+    border: solid red;
+}
+.day-container-loss:hover{
+    border-color: white;
+}
+
+
+
+.empty-container{
+    min-height: 10vh;
+    width: 14vw;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: transparent;
+
+}
+.day{
+    width: 100%;
+    min-height: 15vh;
+    color: white;
+}
+.empty{
+    width: 100%;
+    min-height: 15vh;
+    background-color: transparent;
+}
+
+.dropdown-menu{
+    min-height: 96vh;
+    width: 20vw;
+    position: absolute;
+    right: 20px;
+    border-radius: 15px;
+    background-color: white;
+    padding:  10px 20px;
+}
+
+ul{
+    list-style: none;
+}
+.dropdown-menu ul li{
+    padding: 10px 0;
+    border-top: solid rgba(0,0,0,0.05);
+    border-bottom: solid rgba(0,0,0,0.05);
+
+}
+.dropdown-menu ul li:hover{
+    cursor: pointer;
+    color: red;
+    border-top: solid black;
+    border-bottom: solid black;
+}
+.dropdownItem{
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+.dropdown-menu.active{
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu.inactive{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.top{
+    min-height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom{
+    min-height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.add{
+    min-height: 65vh;
+    background-color: transparent;
+}
+
+.add.active{
+    opacity: 1;
+    visibility: visible;
+}
+.add.inactive{
+    opacity: 0;
+    display: none;
+}
+
+.delete{
+    min-height: 65vh;
+    background-color: blue;
+}
+
+.delete.active{
+    opacity: 1;
+    visibility: none;
+}
+.delete.inactive{
+    opacity: 0;
+    display: none;
+}
+.buttondrop{
+    display: flex;
+    justify-content: center;
+}
+
+.historydrop{
+    position: absolute;
+    min-height: 50vh;
+    width: 90%;
+    background-color: transparent;
+}
+.historydrop.active{
+    opacity: 1;
+    visibility: visible;
+}
+.historydrop.inactive{
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+.view{
+    min-height: 65vh;
+    background-color: white;
+    overflow: scroll;
+}
+
+.view.active{
+    opacity: 1;
+    visibility: none;
+}
+.view.inactive{
+    opacity: 0;
+    display: none;
+}
+
+.bet-container{
+    display: flex;
+    justify-content: center;
+}
+
+.pic{
+    display: flex;
+    align-items: center;
+}
+
+.month-record{
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=number], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+.select{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
